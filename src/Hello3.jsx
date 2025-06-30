@@ -1,10 +1,7 @@
-<!DOCTYPE html>
-<html lang="hi">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>राष्ट्रीय युवा विकास संगठन की नियमावली</title>
-    <style>
+import React from 'react';
+
+export default function Hello3() {
+  return (<div dangerouslySetInnerHTML={{ __html: `<style>
         body {
             font-family: 'Noto Sans Devanagari', Arial, sans-serif;
             line-height: 1.6;
@@ -89,8 +86,6 @@
             }
         }
     </style>
-</head>
-<body>
     <div class="container">
         <h1>राष्ट्रीय युवा विकास संगठन की नियमावली</h1>
 
@@ -269,5 +264,5 @@
             <p>(क्रम आगे जारी किया जा सकता है यदि आवश्यक हो)</p>
         </section>
     </div>
-</body>
-</html>
+` }} />);
+}

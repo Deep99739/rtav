@@ -1,10 +1,7 @@
-<!DOCTYPE html>
-<html lang="hi">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>युवा महोत्सव हेतु वक्तव्य</title>
-    <style>
+import React from 'react';
+
+export default function Hello5() {
+  return (<div dangerouslySetInnerHTML={{ __html: `<style>
         body {
             font-family: 'Noto Sans Devanagari', 'Mangal', Arial, sans-serif;
             line-height: 1.8;
@@ -77,8 +74,6 @@
             }
         }
     </style>
-</head>
-<body>
     <div class="container">
         <h1>युवा महोत्सव हेतु वक्तव्य का अवलोकन</h1>
         <p>आपने जो पाठ भेजा है, वह 12 जनवरी (युवा दिवस एवं स्वामी विवेकानंद जयंती) के अवसर पर आयोजित "युवा महोत्सव" के परिप्रेक्ष्य में तैयार किया गया एक गूढ़, प्रेरणात्मक तथा सामाजिक चेतना से परिपूर्ण <span class="highlight">वक्तव्य/लेख</span> प्रतीत होता है। इसका उद्देश्य युवाओं को राष्ट्र निर्माण में सक्रिय भागीदारी के लिए प्रेरित करना, सामाजिक कुरीतियों के प्रति जागरूक करना और एक समग्र आंदोलन के रूप में युवा चेतना को संगठित करना है।</p>
@@ -106,5 +101,5 @@
             © 2025 राष्ट्रीय युवा विकास संगठन
         </footer>
     </div>
-</body>
-</html>
+` }} />);
+}

@@ -1,11 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - National Youth Organization Development</title>
-    <style>
+import React from 'react';
+
+export default function About() {
+  return (<div dangerouslySetInnerHTML={{ __html: `<style>
         html {
     scroll-behavior: smooth;
 }
@@ -89,8 +85,6 @@ body {
     }
 }
     </style>
-</head>
-<body>
     <!-- Centered Heading -->
     <h1 class="page-heading">Rastriya Yuva Viksas Sangh-2019</h1>
 
@@ -313,5 +307,5 @@ body {
             </div>
         </div>
     </div>
-</body>
-</html>
+` }} />);
+}
