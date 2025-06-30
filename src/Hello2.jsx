@@ -1,9 +1,7 @@
-<!DOCTYPE html>
-<html lang="hi">
-<head>
-    <meta charset="UTF-8">
-    <title>संगठन के उद्देश्य</title>
-    <style>
+import React from 'react';
+
+export default function Hello2() {
+  return (<div dangerouslySetInnerHTML={{ __html: `<style>
         body {
             font-family: 'Noto Serif Devanagari', Arial, sans-serif;
             line-height: 1.6;
@@ -63,8 +61,6 @@
             }
         }
     </style>
-</head>
-<body>
     <div class="container">
         <h1>संगठन के उद्देश्य</h1>
 
@@ -96,5 +92,5 @@
             <li><strong>संगठन का मूल उद्देश्य:</strong> अखंड भारत, सशक्त भारत, समृद्ध भारत के संकल्प को पूरा करने हेतु सभी आवश्यक कार्य करना।</li>
         </ol>
     </div>
-</body>
-</html>
+` }} />);
+}
