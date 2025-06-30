@@ -1,10 +1,7 @@
-<!DOCTYPE html>
-<html lang="hi">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>राष्ट्रीय युवा विकास संगठन का संक्षिप्त इतिहास</title>
-    <style>
+import React from 'react';
+
+export default function Hello4() {
+  return (<div dangerouslySetInnerHTML={{ __html: `<style>
         body {
             font-family: 'Mangal', 'Noto Sans Devanagari', Arial, sans-serif;
             line-height: 1.8;
@@ -63,8 +60,6 @@
             }
         }
     </style>
-</head>
-<body>
     <div class="container">
         <h1>राष्ट्रीय युवा विकास संगठन का संक्षिप्त इतिहास</h1>
 
@@ -90,5 +85,5 @@
 
         <p class="signature">– नरेन्द्र कुमार, संयोजक</p>
     </div>
-</body>
-</html>
+` }} />);
+}
