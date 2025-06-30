@@ -1,0 +1,237 @@
+/* General Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Wrapper Container */
+#wrapper {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Navigation Bar Styling */
+.navbar {
+  background-color: #ffffff;
+  width: 100vw;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  position: relative;
+  margin: 0 20px;
+}
+
+.navbar a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+  display: inline-block;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: red;
+}
+
+/* Image that appears on hover */
+.nav-hover-img {
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+  width: 180px;
+  height: auto;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  z-index: 10;
+}
+
+.navbar li:hover .nav-hover-img {
+  display: block;
+}
+
+/* Center Banner Image */
+.center-banner {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.center-banner img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Logo/Upload Section */
+.logo {
+  text-align: center;
+  margin: 40px 0;
+}
+
+/* Card Container */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Card Styling */
+.card {
+  background-color: #f9f9f9;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s, box-shadow 0.3s;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card p {
+  padding: 15px;
+  font-size: 16px;
+  color: #333;
+}
+
+.card .btn {
+  display: inline-block;
+  margin: 10px auto 20px auto;
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+}
+
+.card .btn:hover {
+  background-color: darkred;
+}
+
+.footer {
+  background-color: #111;
+  color: #fff;
+  padding: 40px 20px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-section {
+  flex: 1 1 250px;
+  margin: 10px;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid red;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.footer-section p, 
+.footer-section ul, 
+.footer-section a {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #ccc;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+}
+
+.download-button {
+  display: inline-block;
+  background-color: white;
+  color: black;
+  padding: 10px 16px;
+  margin-top: 10px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-line {
+  border: none;
+  height: 1px;
+  background-color: #333;
+  margin: 30px 0 10px;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 13px;
+  color: #888;
+}
+
+
+.nav-logo img {
+  height: 40px;  /* or smaller, like 30px */
+  width: auto;
+  margin-right: 10px;
+}
+
+.nav-logo span {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
