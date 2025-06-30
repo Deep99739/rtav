@@ -1,9 +1,7 @@
-<!DOCTYPE html>
-<html lang="hi">
-<head>
-    <meta charset="UTF-8">
-    <title>लक्ष्य का संविधान - राष्ट्रीय युवा विकास संगठन</title>
-    <style>
+import React from 'react';
+
+export default function Hello1() {
+  return (<div dangerouslySetInnerHTML={{ __html: `<style>
         body {
             font-family: 'Noto Serif Devanagari', Arial, sans-serif;
             line-height: 1.6;
@@ -61,8 +59,6 @@
             }
         }
     </style>
-</head>
-<body>
     <div class="container">
         <h1>लक्ष्य का संविधान</h1>
         <h2>राष्ट्रीय युवा विकास संगठन</h2>
@@ -75,5 +71,5 @@
         <h3>प्रस्ताव क्रमांक 2:</h3>
         <p>सर्वसम्मति से प्रस्ताव पारित किया गया कि "राष्ट्रीय युवा विकास संगठन" नामक संगठन को सम्पूर्ण भारत देश में विस्तारित करने हेतु संचालक पद पर सर्वसम्मति से श्री नरसिंह कुमार को नियुक्त किया गया है।</p>
     </div>
-</body>
-</html>
+` }} />);
+}

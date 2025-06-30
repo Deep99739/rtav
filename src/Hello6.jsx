@@ -1,10 +1,7 @@
-<!DOCTYPE html>
-<html lang="hi">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>राष्ट्रीय युवा विकास संगठन - कार्य विभाग समीक्षा रिपोर्ट</title>
-    <style>
+import React from 'react';
+
+export default function Hello6() {
+  return (<div dangerouslySetInnerHTML={{ __html: `<style>
         body {
             font-family: 'Noto Sans Devanagari', Arial, sans-serif;
             line-height: 1.8;
@@ -65,8 +62,6 @@
             }
         }
     </style>
-</head>
-<body>
     <div class="container">
         <h1>राष्ट्रीय युवा विकास संगठन<br>कार्य विभाग की समीक्षा रिपोर्ट</h1>
         <ol>
@@ -103,5 +98,5 @@
             <li><span class="highlight">मित्रों के समूह</span> भी प्रभावी ढंग से कार्यक्रमों के संचालन में समन्वय कर रहे हैं।</li>
         </ol>
     </div>
-</body>
-</html>
+` }} />);
+}

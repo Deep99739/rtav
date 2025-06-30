@@ -1,11 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallery - National Youth Organization Development</title>
-    <style>
+import React from 'react';
+
+export default function Gallery() {
+  return (<div dangerouslySetInnerHTML={{ __html: `<style>
         body {
             margin: 0;
             font-family: 'Arial', sans-serif;
@@ -136,8 +132,6 @@
             transform: translateY(0);
         }
     </style>
-</head>
-<body>
     <!-- Gallery Section -->
     <section class="gallery-section">
         <h2>Our Gallery</h2>
@@ -210,5 +204,5 @@
             </div>
         </div>
     </section>
-</body>
-</html>
+` }} />);
+}
